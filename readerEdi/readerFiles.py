@@ -263,6 +263,9 @@ class FixedWidth(object):
 
     is_valid = property(validate)
 
+    def set_config(self, config):
+        self.__init__(config)
+
     def string_to_dict(self, fw_string):
 
         """

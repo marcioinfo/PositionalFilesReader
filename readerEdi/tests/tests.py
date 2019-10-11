@@ -150,6 +150,7 @@ class TestFixedWidth(unittest.TestCase):
         fw_config = deepcopy(SAMPLE_CONFIG)
 
         fw_obj = FixedWidth(fw_config)
+
         fw_obj.line = (
             "Michael   Smith                              "
             "032vegetarian             40.7128   -74.0059-100   98.6201701011.000        \r\n"
